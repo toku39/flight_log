@@ -10,6 +10,9 @@ class CreateLogs < ActiveRecord::Migration[6.0]
       t.string :aircraft_reqistration
       t.string :departure_airport
       t.string :departure_gate
+      t.datetime :scheduled_time_of_departure
+      t.datetime :actual_time_of_departure
+      t.datetime :take_off_time
 
 
       t.timestamps

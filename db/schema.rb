@@ -22,6 +22,9 @@ ActiveRecord::Schema.define(version: 2021_08_28_095958) do
     t.string "aircraft_reqistration"
     t.string "departure_airport"
     t.string "departure_gate"
+    t.datetime "scheduled_time_of_departure"
+    t.datetime "actual_time_of_departure"
+    t.datetime "take_off_time"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
