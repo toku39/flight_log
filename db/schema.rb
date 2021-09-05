@@ -26,7 +26,9 @@ ActiveRecord::Schema.define(version: 2021_08_28_095958) do
     t.datetime "actual_time_of_departure"
     t.datetime "take_off_time"
     t.string "arrival_airport"
-    t.string "arribal_gate"
+    t.string "arrival_gate"
+    t.datetime "scheduled_time_of_arrival"
+    t.datetime "landing_time"
     t.text "memo"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
