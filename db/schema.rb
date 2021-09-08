@@ -29,6 +29,7 @@ ActiveRecord::Schema.define(version: 2021_08_28_095958) do
     t.datetime "scheduled_time_of_arrival"
     t.datetime "actual_time_of_arrival"
     t.datetime "flight_time"
+    t.integer "flight_mile"
     t.text "memo"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
