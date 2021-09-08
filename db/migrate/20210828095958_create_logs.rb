@@ -17,6 +17,7 @@ class CreateLogs < ActiveRecord::Migration[6.0]
       t.datetime :scheduled_time_of_arrival
       t.datetime :actual_time_of_arrival
       t.datetime :flight_time
+      t.integer :flight_mile
       t.text :memo
 
 
