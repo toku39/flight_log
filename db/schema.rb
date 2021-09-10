@@ -14,8 +14,8 @@ ActiveRecord::Schema.define(version: 2021_08_28_095958) do
 
   create_table "logs", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.datetime "date", null: false
-    t.string "airline"
-    t.string "flight_num"
+    t.string "airline", null: false
+    t.string "flight_num", null: false
     t.integer "class_id"
     t.string "seat_num"
     t.integer "aircraft_type_id"
