@@ -4,7 +4,7 @@ class CreateLogs < ActiveRecord::Migration[6.0]
       t.datetime :date    ,null: false
       t.string :airline   ,null: false
       t.string :flight_num,null: false
-      t.integer :class_id
+      t.integer :class_id,null: false
       t.string :seat_num
       t.integer :aircraft_type_id
       t.string :aircraft_reqistration
