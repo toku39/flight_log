@@ -7,7 +7,7 @@ class CreateLogs < ActiveRecord::Migration[6.0]
       t.integer :class_id,null: false
       t.string :seat_num,null: false
       t.integer :aircraft_type_id,null: false
-      t.string :aircraft_reqistration
+      t.string :aircraft_reqistration,null: false
       t.string :departure_airport
       t.string :departure_gate
       t.datetime :scheduled_time_of_departure
