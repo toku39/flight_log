@@ -23,7 +23,7 @@ ActiveRecord::Schema.define(version: 2021_08_28_095958) do
     t.string "departure_airport", null: false
     t.string "departure_gate", null: false
     t.datetime "scheduled_time_of_departure", null: false
-    t.datetime "actual_time_of_departure"
+    t.datetime "actual_time_of_departure", null: false
     t.string "arrival_airport"
     t.string "arrival_gate"
     t.datetime "scheduled_time_of_arrival"
