@@ -25,7 +25,7 @@ ActiveRecord::Schema.define(version: 2021_08_28_095958) do
     t.datetime "scheduled_time_of_departure", null: false
     t.datetime "actual_time_of_departure", null: false
     t.string "arrival_airport", null: false
-    t.string "arrival_gate"
+    t.string "arrival_gate", null: false
     t.datetime "scheduled_time_of_arrival"
     t.datetime "actual_time_of_arrival"
     t.integer "flight_mile"
